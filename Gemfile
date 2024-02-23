@@ -7,14 +7,6 @@ ruby '3.0.1'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
-# Use Puma as the app server
-gem 'puma', '~> 5.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
-# Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.0'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.5'
@@ -28,7 +20,6 @@ gem 'figaro'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'kaminari'
-gem 'jquery-rails', '~> 4.4'
 gem 'roo', '~> 2.8', '>= 2.8.3'
 gem 'devise', '~> 4.8'
 gem "sidekiq"

@@ -16,3 +16,12 @@ stage:
 
 production:
   <<: *default
+
+coin_elite:
+  <<: *default
+  database: coin_elite
+
+spot_manager:
+  <<: *default
+  database: spot_manager
+  
