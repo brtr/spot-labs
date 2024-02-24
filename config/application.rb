@@ -35,11 +35,5 @@ module SpotLabs
       pool_size: 5,
       pool_timeout: 5
     }
-
-    ENV.fetch('RAILS_HOST_NAME').split(",").each do |h|
-      config.hosts << h
-    end
-
-    config.host_authorization = { exclude: ->(request) { request.path =~ /healthcheck/ } }
   end
 end
