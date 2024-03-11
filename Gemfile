@@ -27,7 +27,6 @@ gem "sidekiq-scheduler"
 gem 'rest-client'
 gem 'binance-connector-ruby'
 gem "sentry-ruby"
-gem 'whenever', require: false
 gem "simple_calendar", "~> 2.4"
 gem 'aws-sdk-s3'
 gem "paperclip", "> 6"
@@ -51,11 +50,6 @@ group :development do
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
-  gem "capistrano", "~> 3.16", require: false
-  gem 'capistrano-bundler'
-  gem 'capistrano-rbenv'
-  gem 'capistrano-rails'
-  gem 'capistrano-sidekiq'
 end
 
 group :test do
